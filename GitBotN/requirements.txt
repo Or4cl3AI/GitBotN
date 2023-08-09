@@ -1,0 +1,12 @@
+# Since Node.js uses a package.json file to manage dependencies, a requirements.txt file is not typically used. However, if we were to list the dependencies in a similar format, it would look like this:
+
+express
+mongodb
+react
+redux
+bootstrap
+webpack
+babel
+vercel
+github-api
+conversational-ai
