@@ -2,14 +2,14 @@
   "name": "GitBotN",
   "version": "1.0.0",
   "description": "An extraordinary monorepo Node.js web application that combines the power of conversational AI, GitHub integration, and a remarkable tech stack to revolutionize developers' workflows.",
-  "main": "server.js",
+  "main": "GitBotN/server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node GitBotN/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/GitBotN.git"
+    "url": "git+https://github.com/Or4cl3AI/GitBotN.git"
   },
   "keywords": [
     "Node.js",
@@ -27,9 +27,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yourusername/GitBotN/issues"
+    "url": "https://github.com/Or4cl3AI/GitBotN/issues"
   },
-  "homepage": "https://github.com/yourusername/GitBotN#readme",
+  "homepage": "https://github.com/Or4cl3AI/GitBotN#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^3.6.6",
