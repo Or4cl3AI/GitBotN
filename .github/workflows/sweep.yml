@@ -1,0 +1,22 @@
+name: Sweep Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+permissions: read-all
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build and deploy with Sweep
+        run: sweep build && sweep deploy
